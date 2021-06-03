@@ -1028,8 +1028,8 @@ login.TextScaled = true
 login.TextSize = 14
 login.TextWrapped = true
 login.MouseButton1Down:connect(function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/AdvanceCheck/l/main/README.md'))()
 LoginFrame.Visible = false
 MainFrame.Visible = true
+loadstring(game:HttpGet('https://raw.githubusercontent.com/AdvanceCheck/l/main/README.md'))()
 end)
 
